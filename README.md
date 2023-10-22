@@ -62,11 +62,15 @@ directly from Kali to MS02. Create a share folder on MS01, copy files to that fo
 27 – For AD Set, after getting system level access, which might be over CLI, create a new account as local admin, enable RDP, login and do further enum like running mimikatz. You can use below commands to create user and enable RDP.
 
 For RDP (PowerShell commands)
+
 •	Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
+
 •	Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 For Creating User
+
 •	net user user1 Pass123 /add 
+
 •	net localgroup Administrators user1 /add
 
 28 – Try reverse shell from https://www.revshells.com/, keep trying as one of them will work in lab and in exam too.
