@@ -60,8 +60,8 @@ directly from Kali to MS02. Create a share folder on MS01, copy files to that fo
 26 – Always check for ports open or allowed locally (for 127.0.0.1). You can connect to these ports on same target machine using “telnet localhost <port number>”. It will give you an idea if something interesting is running.
 
 27 – For AD Set, after getting system level access, which might be over CLI, create a new account as local admin, enable RDP, login and do further enum like running mimikatz. You can use below commands to create user and enable RDP.
-For RDP (PowerShell commands)
 
+For RDP (PowerShell commands)
 •	Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
 •	Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
