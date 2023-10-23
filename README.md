@@ -1,7 +1,7 @@
 ## oscp-tips ##
 ### Tips and Tricks for OSCP and Beyond! ###
 
-1 - Run a quick port scanner like threader3000 or rustscan first. You can save good amount of time by this way, for example threader3000 scans all ports and suggests nmap only for open ports only.
+1 - Run a quick port scanner like threader3000 or rustscan first. You can save good amount of time by this way, for example threader3000 scans all ports and suggests nmap only for open ports.
 
 2 - Run nmap -sS for all ports, compare open ports with previous scan.
 
