@@ -21,7 +21,7 @@
 
 10 - Check HTML code, check title of the page, sometimes you will get vulnerable system name from title itself.
 
-11 - Check nmap scan, try to connect to every port using telnet or nc. Send some random keys and see the response.
+11 - Check nmap scan, try to connect to every port using telnet or nc. Send some random keys and see the response. You can also adjust the speed of scan if not getting desired results, for example try with -T2.
 
 12 - Check hacktricks (https://book.hacktricks.xyz/) if you don't know or aware about pentesting of a port or service.
 
